@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: gray;
+}
+.options
+{
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.buttons{
+    padding: 30px;
+ }
+ .buttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    margin: 30px;
+    font-size: larger;
+    font-style: italic;
+ }
+  .buttons button:hover{
+   background-color: green;
+
+ }
+.textarea input{
+    padding: 30px;
+    
+    
+  
+}
